@@ -1,0 +1,26 @@
+
+/*  selector {property:value;} */
+nav{border: 1px solid red;}
+
+#indexpage .mainnavigation li:nth-child(1){background-color: yellow;}
+#aboutpage .mainnavigation li:nth-child(1){background-color: yellow;}
+#portfoliopage .mainnavigation li:nth-child(1){background-color: yellow;}
+
+
+.tealbg {background-color: teal;}
+
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+nav {
+
+	height: : 300px;
+}
+
+img {
+	margin: auto;
+}
