@@ -5,46 +5,109 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foundation for Sites</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
 
   </head>
   <body id="indexpage">
-    <div class="grid-container">
-      <div class="grid-x grid-padding-x">
+
+
+
         <!--start of main navigation-->
-        <nav class="mainnavigation cell small-12">
-        <h1>Jing Wang</h1>
-          <ul>
-            <li><a href="index.html">home</a></li>
-            <li><a href="portfolio.html">portfolio</a></li>
-            <li><a href="about.html">about</a></li>
-          </ul>
+        <nav class="mainnavigation cell small-12 large-up-6">
+
+
+        <div class="title-bar" data-responsive-toggle="main-nav" data-hide-for="">
+          <button class="menu-icon" type="button" data-toggle="main-nav"></button>
+          <div class="title-bar-title">Menu</div>
+        </div>
+
+        <div class="top-bar" id="main-nav">
+          <div class="top-bar-right">
+            <ul class="dropdown menu" data-responsive-menu>
+              <li class="menu-text">Site Title</li>
+              <li>
+                <a href="index.html">Home</a>
+                <ul class="menu vertical">
+
+                </ul>
+              </li>
+              <li><a href="Portfolio.html">Portfolio</a></li>
+              <li><a href="about.html">about</a></li>
+            </ul>
+          </div>
+          <div class="top-bar-right">
+            <ul class="menu">
+              <li><input type="search" placeholder="Search"></li>
+              <li><button type="button" class="button">Search</button></li>
+            </ul>
+          </div>
+        </div>
+
         </nav>
         <!--end of main navigation-->
 
-<div class="bigphoto cell small-12">
-bigphoto
+        <h1 class="greetingh1"></h1>
+        <div class="color"></div>
+        <h1 class="greeting">Hello, I am a Web Designer.</h1>
+          <h4>Who can help you make profit.</4>
+            <button type="Contact Me" name="button">Let's talk</button>
+
+
+          <script>
+
+          var today = new Date();
+          var hourNow = today.getHours();
+          console.log(hourNow);
+          console.log(today);
+
+          var greeting;
+
+            if (hourNow > 13) {
+               greeting ="Good evening!";
+               } else{
+                //greeting ='<img src="https://placekitten.com/g/150/150">';
+                //greeting =<style> h1{color:green;} </style>
+                //greeting =<style> h4{color:gray;} </style>
+                 greeting =<style> body{background-color:green;} </style>
+               }
+
+
+
+
+          document.write(greeting);
+
+
+          </script>
+
+
+          <style>
+            h1 {color:E57661;}
+            h4 {color:gray;}
+          </style>
+
+
+    <div class="grid-container">
+    <div class="grid-x grid-margin-x grid-margin-y grid-padding-x grid-padding-y">
+<div class="bigheadline cell medium-6">
+
 </div>
-<div class="bigheadline cell small-12">
-bigheadline
+<div class="testimonal t1 cell medium-6 large-6">
+<p>I was awarded the Gold Award as a Web Designer.  I can create a professional-looking site without you needing any knowledge of web technologies.</p>
 </div>
-<div class="testimonal t1 cell small-12 large-6">
-testimonal t1
-</div>
-<div class="testimonal t2 cell small-12 large-6">
-testimonal t2
+<div class="testimonal t2 cell medium-6 large-6">
+<p>I’ve also had an award-winning UI/UX digital designer and creative director originally from Edinburgh, Scotland with 14 years of experience designing for brands like Channel 4, Procter & Gamble, Danone, Tottenham Hotspur and Standard Life. In his spare time, I  enjoy photography and writing design articles and tutorials for Designmodo and Digital Arts Online.</p>
 </div>
 <footer class="cell small-12">
-  footer
+  <h5>&copy; 2017 Jing Wang</h5>
 </footer>
 
 
         <div class="large-12 cell">
-          <h1>Welcome to Foundation</h1>
-          <h5>&copy; 2017 Jing Wang</h5>
-          <a href="http://www.csueastbay.edu" target="_blank"> CSUEB</a>
+          <h1>   </h1>
+
+
         </div>
       </div>
 </div>  <!--closes the container -->

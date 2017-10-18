@@ -14,12 +14,33 @@
       <div class="grid-x grid-padding-x">
 <!--start of main navigation-->
 <nav class="mainnavigation cell small-12">
-  <h1>Jing Wang</h1>
-  <ul>
-    <li><a href="index.html">home</a></li>
-    <li><a href="portfolio.html">portfolio</a></li>
-    <li><a href="about.html">about</a></li>
-  </ul>
+
+  <div class="title-bar" data-responsive-toggle="main-nav" data-hide-for="">
+    <button class="menu-icon" type="button" data-toggle="main-nav"></button>
+    <div class="title-bar-title">Menu</div>
+  </div>
+
+  <div class="top-bar" id="main-nav">
+    <div class="top-bar-right">
+      <ul class="dropdown menu" data-responsive-menu>
+        <li class="menu-text">Site Title</li>
+        <li>
+          <a href="index.html">Home</a>
+          <ul class="menu vertical">
+
+          </ul>
+        </li>
+        <li><a href="Portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">about</a></li>
+      </ul>
+    </div>
+    <div class="top-bar-right">
+      <ul class="menu">
+        <li><input type="search" placeholder="Search"></li>
+        <li><button type="button" class="button">Search</button></li>
+      </ul>
+    </div>
+  </div>
 </nav>
 <!--end of main navigation-->
 
@@ -27,19 +48,21 @@
         <div class="large-12 cell">
           <h1>Welcome</h1>
         </div>
+        <section class="about">
+        <div class="profile-photos">
+          <img src="images/self.jpg">
+          </div>
+        <div class="grid-container">
+        <div class="grid-x grid-margin-x grid-margin-y grid-padding-x grid-padding-y">
 
 
 
-<section class="about">
-<div class="profile-photos">
-  <img src="images/self.jpg">
-  </div>
 
 
 
-<div class="text-box">
+<div class="text-box cell medium-2 large-6">
   <div class="content">
-
+<p>My name is Jing Wang.  I am professional in Web and Graphic Design.  I've been stuyding Graphic Design for 2 years in Calstate East Bay University.  I am well known Adobe Photoshop, Adobe Illustrator.  Practiced with HTML, CSS and familiar with JAVA.
   </div>
 
 </div>
@@ -58,7 +81,7 @@
 
 <footer>
   <h5>&copy; 2017 Jing Wang</h5>
-  <a href="http://www.csueastbay.edu" target="_blank"> CSUEB</a>
+
   <br>
 </footer>
 
